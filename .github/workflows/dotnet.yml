@@ -19,7 +19,7 @@ jobs:
         dotnet-version: 5.0.x
         
     - name: Restore dependencies
-      run: dotnet restore NepFood-Backend/src/Microservices.sln
+      run: dotnet restore ./src/Microservices.sln
       
     - name: Build app
       run: dotnet build 
