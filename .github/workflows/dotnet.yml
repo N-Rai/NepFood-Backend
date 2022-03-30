@@ -19,11 +19,11 @@ jobs:
         dotnet-version: 5.0.x
         
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./Microservices.sln
       
     - name: Build app
-      run: dotnet build Microservices.sln
+      run: dotnet build 
       
     - name: Test
-      run: dotnet test Microservices.sln
+      run: dotnet test 
 
