@@ -22,9 +22,8 @@ jobs:
       run: dotnet restore
       
     - name: Build app
-      run: dotnet build 
-      working-directory: NepFood-Backend/src/
+      run: dotnet build Microservices.sln
       
     - name: Test
-      run: dotnet test
-      working-directory: NepFood-Backend/src/ 
+      run: dotnet test Microservices.sln
+
