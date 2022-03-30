@@ -22,7 +22,9 @@ jobs:
       run: dotnet restore
       
     - name: Build app
-      run: dotnet build ../src/ 
+      run: dotnet build 
+      working-directory: NepFood-Backend/src/
       
     - name: Test
-      run: dotnet test ../src/ 
+      run: dotnet test
+      working-directory: NepFood-Backend/src/ 
