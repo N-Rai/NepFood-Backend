@@ -26,6 +26,7 @@ namespace Catalog.API.Data
                 {
                     Id = "602d2149e773f2a3990b47f5",
                     Name = "Butter Chicken",
+                    Category = "Main",
                     ImageFile = "",
                     Description = "Aromatic golden chicken pieces in an incredible curry sauce.",                   
                     Price = 18,
@@ -35,6 +36,7 @@ namespace Catalog.API.Data
                 {
                     Id = "602d2149e773f2a3990b47f6",
                     Name = "Vindaloo",
+                    Category = "Main",
                     ImageFile = "",
                     Description = "A standard element of Goan cuisine derived from the Portuguese carne de vinha d'alhos (meat in garlic marinade).",
                     Price = 16,
@@ -44,6 +46,7 @@ namespace Catalog.API.Data
                 {
                     Id = "602d2149e773f2a3990b47f7",
                     Name = "Lamb Roghanjosh",
+                    Category = "Curry",
                     ImageFile = "",
                     Description = "An indian lamb curry with a heady combination of intense spices in a creamy tomato curry sauce.",
                     Price = 18,
@@ -53,6 +56,7 @@ namespace Catalog.API.Data
                 {
                     Id = "602d2149e773f2a3990b47f8",
                     Name = "Paneer Butter Masala",
+                    Category = "Main",
                     ImageFile = "",
                     Description = "A rich & creamy curry made with paneer, spices, onions, tomatoes, cashews and butter.",
                     Price = 18,
@@ -62,6 +66,7 @@ namespace Catalog.API.Data
                 {
                     Id = "602d2149e773f2a3990b47f9",
                     Name = "Chicken Madras",
+                    Category = "Dessert",
                     ImageFile = "",
                     Description = "A madras curry is a fairly hot curry with a dark red thick sauce (the colour comes from the chillies and paprika).",
                     Price = 18,
@@ -71,6 +76,7 @@ namespace Catalog.API.Data
                 {
                     Id = "602d2149e773f2a3990b47fa",
                     Name = "Nepalese Momo",
+                    Category = "Starter",
                     ImageFile = "",
                     Description = "A dumpling made of all-purpose flour and filled with either meat or vegetables.",
                     Price = 10,
