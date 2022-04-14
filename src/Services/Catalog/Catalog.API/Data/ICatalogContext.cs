@@ -9,6 +9,7 @@ namespace Catalog.API.Data
 {
     public interface ICatalogContext
     {
+        //properties
         IMongoCollection<Dish> Dishes { get; }
     }
 }
