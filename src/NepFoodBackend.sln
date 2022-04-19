@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{A84B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{00C6CEBA-AD83-4031-AD2B-CBE731ECE193}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{4B4B587D-FD66-4B5E-9221-16F1B4B366E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductAPI", "ProducAPI\ProductAPI.csproj", "{A08D2CB2-8B20-485D-B5B2-17B2C5E56232}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,10 @@ Global
 		{00C6CEBA-AD83-4031-AD2B-CBE731ECE193}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00C6CEBA-AD83-4031-AD2B-CBE731ECE193}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00C6CEBA-AD83-4031-AD2B-CBE731ECE193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08D2CB2-8B20-485D-B5B2-17B2C5E56232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08D2CB2-8B20-485D-B5B2-17B2C5E56232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08D2CB2-8B20-485D-B5B2-17B2C5E56232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08D2CB2-8B20-485D-B5B2-17B2C5E56232}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
